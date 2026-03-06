@@ -289,11 +289,17 @@ function setYear() {
 // ─── DOWNLOAD RESUME ─────────────────────────────────────
 document.addEventListener('DOMContentLoaded', () => {
   const resumeBtn = document.getElementById('downloadResume');
+
   if (resumeBtn) {
     resumeBtn.addEventListener('click', (e) => {
       e.preventDefault();
-      // In production, replace with actual resume file link
-      alert('📄 Resume download coming soon! Please contact me directly for my latest resume.');
+
+      const link = document.createElement('a');
+      link.href = 'Abith_Raj_Resume.pdf';
+      link.download = 'Abith_Raj_Resume.pdf';
+      document.body.appendChild(link);
+      link.click();
+      document.body.removeChild(link);
     });
   }
 });
@@ -421,3 +427,4 @@ document.addEventListener('keydown', (e) => {
     }
   }
 });
+
