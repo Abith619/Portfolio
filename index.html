@@ -1,0 +1,839 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description"
+    content="Abith Raj S — Python Full Stack Developer & Odoo ERP Specialist. Building scalable ERP systems, backend platforms, and enterprise software with 4+ years of experience." />
+  <meta name="keywords"
+    content="Abith Raj, Python Developer, Odoo ERP, Backend Engineer, Django, REST API, Full Stack Developer" />
+  <meta name="author" content="Abith Raj S" />
+  <meta property="og:title" content="Abith Raj S — Python Full Stack Developer" />
+  <meta property="og:description" content="Building scalable ERP systems and backend platforms with Python." />
+  <meta property="og:type" content="website" />
+  <title>Abith Raj S — Python Full Stack Developer & ERP Architect</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+
+  <!-- ─── NAVIGATION ─────────────────────────────────────────── -->
+  <nav id="navbar">
+    <a href="#hero" class="nav-logo">ABITH RAJ</a>
+    <ul class="nav-links">
+      <li><a href="#about">About</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#experience">Experience</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#philosophy">Philosophy</a></li>
+      <li><a href="#contact" class="nav-cta">Let's Talk →</a></li>
+    </ul>
+    <div class="nav-right">
+      <button class="theme-toggle" id="themeToggle" aria-label="Toggle theme">🌙</button>
+      <div class="hamburger" id="hamburger" aria-label="Menu">
+        <span></span><span></span><span></span>
+      </div>
+    </div>
+  </nav>
+
+  <div class="mobile-menu" id="mobileMenu">
+    <a href="#about" class="mobile-link">About</a>
+    <a href="#skills" class="mobile-link">Skills</a>
+    <a href="#experience" class="mobile-link">Experience</a>
+    <a href="#projects" class="mobile-link">Projects</a>
+    <a href="#philosophy" class="mobile-link">Engineering Philosophy</a>
+    <a href="#contact" class="mobile-link">Contact</a>
+  </div>
+
+  <!-- ─── HERO SECTION ───────────────────────────────────────── -->
+  <section id="hero">
+    <div class="hero-grid"></div>
+    <div class="hero-orb hero-orb-1"></div>
+    <div class="hero-orb hero-orb-2"></div>
+    <div class="hero-orb hero-orb-3"></div>
+    <canvas id="particles-canvas"></canvas>
+
+    <div class="hero-content">
+      <div class="hero-badge">
+        <span class="dot"></span>
+        Available for Opportunities
+      </div>
+
+      <h1 class="hero-title">
+        <span class="line-1">Python Full Stack Developer</span>
+        <span class="line-2">& Scalable Backend Platforms</span>
+      </h1>
+
+      <p class="hero-subtitle">
+        Python Full Stack Developer specializing in ERP architecture, API integrations,
+        and enterprise software solutions — turning complex business logic into maintainable,
+        scalable systems.
+      </p>
+
+      <div class="hero-cta-group">
+        <a href="#projects" class="btn-primary">
+          <span>🚀</span> View Projects
+        </a>
+        <a href="#contact" class="btn-secondary">
+          <span>💬</span> Contact Me
+        </a>
+        <a href="#" class="btn-secondary" id="downloadResume">
+          <span>📄</span> Download Resume
+        </a>
+      </div>
+
+      <div class="hero-tech-stack">
+        <span class="tech-chip"><span class="chip-icon">🐍</span> Python</span>
+        <span class="tech-chip"><span class="chip-icon">🔷</span> Odoo ERP</span>
+        <span class="tech-chip"><span class="chip-icon">⚡</span> Django</span>
+        <span class="tech-chip"><span class="chip-icon">🐳</span> Docker</span>
+        <span class="tech-chip"><span class="chip-icon">☁️</span> AWS</span>
+        <span class="tech-chip"><span class="chip-icon">🔗</span> REST APIs</span>
+        <span class="tech-chip"><span class="chip-icon">🗄️</span> PostgreSQL</span>
+      </div>
+    </div>
+
+    <div class="scroll-indicator">
+      <span>scroll</span>
+      <div class="mouse">
+        <div class="wheel"></div>
+      </div>
+    </div>
+  </section>
+
+  <div class="section-divider"></div>
+
+  <!-- ─── ABOUT SECTION ──────────────────────────────────────── -->
+  <section id="about">
+    <div class="container">
+      <div class="about-grid">
+        <div class="about-visual reveal-left">
+          <div class="about-card">
+            <div class="about-avatar">👨‍💻</div>
+            <h3>Abith Raj S</h3>
+            <div class="role">@abithraj · Python &amp; Odoo Engineer</div>
+
+            <div class="stat-row">
+              <div class="stat-item">
+                <div class="stat-number">4+</div>
+                <div class="stat-label">Years Exp</div>
+              </div>
+              <div class="stat-item">
+                <div class="stat-number">20+</div>
+                <div class="stat-label">Projects</div>
+              </div>
+              <div class="stat-item">
+                <div class="stat-number">10+</div>
+                <div class="stat-label">ERP Modules</div>
+              </div>
+            </div>
+
+            <div class="about-tags">
+              <span class="about-tag">Python</span>
+              <span class="about-tag">Odoo ORM</span>
+              <span class="about-tag">Django</span>
+              <span class="about-tag">REST API</span>
+              <span class="about-tag">Docker</span>
+              <span class="about-tag">AWS</span>
+              <span class="about-tag">PostgreSQL</span>
+            </div>
+
+            <div class="terminal-widget">
+              <div class="terminal-header">
+                <div class="terminal-dot t-red"></div>
+                <div class="terminal-dot t-yellow"></div>
+                <div class="terminal-dot t-green"></div>
+                <span class="terminal-title">abith@dev ~ python</span>
+              </div>
+              <div class="terminal-body">
+                <div class="terminal-line">
+                  <span class="t-prompt">$</span>
+                  <span class="t-cmd">python profile.py</span>
+                </div>
+                <div class="terminal-line">
+                  <span class="t-output">→ Role: <span class="t-highlight">Senior Odoo Developer</span></span>
+                </div>
+                <div class="terminal-line">
+                  <span class="t-output">→ Stack: <span class="t-string">"Python | Odoo | Django"</span></span>
+                </div>
+                <div class="terminal-line">
+                  <span class="t-output">→ Focus: <span class="t-highlight">ERP Architecture</span></span>
+                </div>
+                <div class="terminal-line">
+                  <span class="t-output">→ Status: <span class="t-available">Available</span> <span
+                      class="t-cursor"></span></span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="about-text reveal-right">
+          <div class="section-label">About Me</div>
+          <h2>Engineering ERP Systems That<br />Power Real Businesses</h2>
+
+          <p>
+            With over 4 years of focused experience in Python and Odoo ERP development,
+            I specialize in architecting enterprise-grade systems that handle real-world
+            business complexity — from manufacturing workflows to hospital billing,
+            from e-commerce integrations to custom API platforms.
+          </p>
+          <p>
+            My journey started with building fundamental backend services and has evolved
+            into designing complete ERP ecosystems that integrate seamlessly with external
+            platforms, automate business processes, and scale with growing organizations.
+          </p>
+          <p>
+            I believe that great software engineering is not just about writing code —
+            it's about understanding business logic deeply and translating it into
+            maintainable, extensible systems that solve real problems at scale.
+          </p>
+
+          <div class="about-highlights">
+            <div class="highlight-item">
+              <div class="highlight-icon">🏗️</div>
+              <div class="highlight-text">
+                <strong>ERP Architecture</strong>
+                <span>Custom Odoo modules &amp; workflows</span>
+              </div>
+            </div>
+            <div class="highlight-item">
+              <div class="highlight-icon">🔗</div>
+              <div class="highlight-text">
+                <strong>API Integrations</strong>
+                <span>REST, JSON-RPC, third-party platforms</span>
+              </div>
+            </div>
+            <div class="highlight-item">
+              <div class="highlight-icon">⚙️</div>
+              <div class="highlight-text">
+                <strong>Backend Systems</strong>
+                <span>Django, Python, PostgreSQL</span>
+              </div>
+            </div>
+            <div class="highlight-item">
+              <div class="highlight-icon">☁️</div>
+              <div class="highlight-text">
+                <strong>Cloud &amp; DevOps</strong>
+                <span>AWS, Docker, Linux servers</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <div class="section-divider"></div>
+
+  <!-- ─── SKILLS SECTION ─────────────────────────────────────── -->
+  <section id="skills">
+    <div class="inner">
+      <div class="section-header reveal">
+        <div class="section-label">Technical Arsenal</div>
+        <h2 class="section-title">Skills & Technologies</h2>
+        <p class="section-subtitle">
+          A comprehensive toolkit built through years of production engineering on ERP,
+          backend platforms, and cloud infrastructure.
+        </p>
+      </div>
+
+      <div class="skills-categories">
+        <div class="skill-category reveal delay-1">
+          <div class="skill-cat-header">
+            <div class="skill-cat-icon">🐍</div>
+            <span class="skill-cat-name">Backend Engineering</span>
+          </div>
+          <div class="skills-grid">
+            <span class="skill-badge"><span class="badge-icon">🐍</span> Python</span>
+            <span class="skill-badge"><span class="badge-icon">🔷</span> Odoo ORM</span>
+            <span class="skill-badge"><span class="badge-icon">⚡</span> Django</span>
+            <span class="skill-badge"><span class="badge-icon">🔗</span> REST APIs</span>
+            <span class="skill-badge"><span class="badge-icon">📡</span> JSON-RPC</span>
+            <span class="skill-badge"><span class="badge-icon">🗄️</span> PostgreSQL</span>
+            <span class="skill-badge"><span class="badge-icon">🔐</span> Authentication Systems</span>
+            <span class="skill-badge"><span class="badge-icon">📦</span> OWL Framework</span>
+          </div>
+        </div>
+
+        <div class="skill-category reveal delay-2">
+          <div class="skill-cat-header">
+            <div class="skill-cat-icon">🎨</div>
+            <span class="skill-cat-name">Frontend Development</span>
+          </div>
+          <div class="skills-grid">
+            <span class="skill-badge"><span class="badge-icon">🌐</span> HTML5</span>
+            <span class="skill-badge"><span class="badge-icon">🎨</span> CSS3</span>
+            <span class="skill-badge"><span class="badge-icon">⚡</span> JavaScript</span>
+            <span class="skill-badge"><span class="badge-icon">🅱️</span> Bootstrap</span>
+            <span class="skill-badge"><span class="badge-icon">⚛️</span> React Native</span>
+            <span class="skill-badge"><span class="badge-icon">🦉</span> OWL (Odoo Web Library)</span>
+            <span class="skill-badge"><span class="badge-icon">📊</span> Jinja2 Templates</span>
+          </div>
+        </div>
+
+        <div class="skill-category reveal delay-3">
+          <div class="skill-cat-header">
+            <div class="skill-cat-icon">🐳</div>
+            <span class="skill-cat-name">DevOps & Infrastructure</span>
+          </div>
+          <div class="skills-grid">
+            <span class="skill-badge"><span class="badge-icon">🐳</span> Docker</span>
+            <span class="skill-badge"><span class="badge-icon">☁️</span> AWS</span>
+            <span class="skill-badge"><span class="badge-icon">🐧</span> Linux</span>
+            <span class="skill-badge"><span class="badge-icon">🔧</span> Git & GitHub</span>
+            <span class="skill-badge"><span class="badge-icon">📬</span> Postman</span>
+            <span class="skill-badge"><span class="badge-icon">🗄️</span> PgAdmin</span>
+            <span class="skill-badge"><span class="badge-icon">💻</span> VS Code</span>
+          </div>
+        </div>
+
+        <div class="skill-category reveal delay-4">
+          <div class="skill-cat-header">
+            <div class="skill-cat-icon">🏛️</div>
+            <span class="skill-cat-name">Architecture & Patterns</span>
+          </div>
+          <div class="skills-grid">
+            <span class="skill-badge"><span class="badge-icon">🏛️</span> MVC Architecture</span>
+            <span class="skill-badge"><span class="badge-icon">📐</span> OOP Design</span>
+            <span class="skill-badge"><span class="badge-icon">🔷</span> ORM Patterns</span>
+            <span class="skill-badge"><span class="badge-icon">🔗</span> API-First Design</span>
+            <span class="skill-badge"><span class="badge-icon">♻️</span> Modular Development</span>
+            <span class="skill-badge"><span class="badge-icon">🔄</span> Business Process Automation</span>
+            <span class="skill-badge"><span class="badge-icon">🧩</span> ERP Integration Patterns</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <div class="section-divider"></div>
+
+  <!-- ─── EXPERIENCE SECTION ─────────────────────────────────── -->
+  <section id="experience">
+    <div class="container">
+      <div class="section-header reveal">
+        <div class="section-label">Career Journey</div>
+        <h2 class="section-title">Work Experience</h2>
+        <p class="section-subtitle">
+          Four years of building production ERP systems that power real businesses
+          across multiple industries.
+        </p>
+      </div>
+
+      <div class="timeline">
+
+        <div class="timeline-item">
+          <div class="exp-card">
+            <div class="exp-header">
+              <div class="exp-company">
+                <div class="exp-logo">🏢</div>
+                <div>
+                  <div class="exp-role">Senior Odoo Developer</div>
+                  <div class="exp-org">BinaryWaves Solutions Pvt Ltd</div>
+                </div>
+              </div>
+              <div class="exp-period">2025 – Present</div>
+            </div>
+            <ul class="exp-achievements">
+              <li>Architected and delivered end-to-end custom Odoo ERP modules for manufacturing, hospital, and event
+                management domains, serving enterprise clients.</li>
+              <li>Designed and implemented REST API integrations connecting Odoo with external platforms including
+                Moodle LMS, PayPal, WooCommerce, and third-party logistics systems.</li>
+              <li>Led backend architecture decisions for production ERP deployments on Linux servers and AWS
+                infrastructure with Docker containerization.</li>
+              <li>Built custom OWL-based frontend components within Odoo, improving UI workflows and reducing data entry
+                friction for end users.</li>
+              <li>Mentored junior developers on Odoo ORM patterns, Python best practices, and ERP module development
+                lifecycle.</li>
+            </ul>
+            <div class="exp-tags">
+              <span class="exp-tag">Python</span>
+              <span class="exp-tag">Odoo 16/17</span>
+              <span class="exp-tag">OWL</span>
+              <span class="exp-tag">REST API</span>
+              <span class="exp-tag">Docker</span>
+              <span class="exp-tag">AWS</span>
+              <span class="exp-tag">PostgreSQL</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="timeline-item">
+          <div class="exp-card">
+            <div class="exp-header">
+              <div class="exp-company">
+                <div class="exp-logo">🛡️</div>
+                <div>
+                  <div class="exp-role">Python Developer</div>
+                  <div class="exp-org">AbSafe IT Solutions</div>
+                </div>
+              </div>
+              <div class="exp-period">2024 – 2025</div>
+            </div>
+            <ul class="exp-achievements">
+              <li>Developed custom Odoo modules for inventory, sales, and CRM workflows, automating business processes
+                that previously required manual intervention.</li>
+              <li>Built JSON-RPC and REST API endpoints for mobile and web application integrations with Odoo backend
+                systems.</li>
+              <li>Implemented e-commerce WooCommerce–Odoo synchronization pipelines for product catalog, order, and
+                customer data.</li>
+              <li>Improved backend performance by optimizing ORM queries and implementing caching strategies, reducing
+                API response times by 40%.</li>
+            </ul>
+            <div class="exp-tags">
+              <span class="exp-tag">Python</span>
+              <span class="exp-tag">Odoo</span>
+              <span class="exp-tag">JSON-RPC</span>
+              <span class="exp-tag">WooCommerce</span>
+              <span class="exp-tag">PostgreSQL</span>
+              <span class="exp-tag">Linux</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="timeline-item">
+          <div class="exp-card">
+            <div class="exp-header">
+              <div class="exp-company">
+                <div class="exp-logo">💼</div>
+                <div>
+                  <div class="exp-role">Python Developer</div>
+                  <div class="exp-org">INSOFT.com Pvt Ltd</div>
+                </div>
+              </div>
+              <div class="exp-period">2023 – 2024</div>
+            </div>
+            <ul class="exp-achievements">
+              <li>Contributed to Django-based web application development with RESTful API design, delivering scalable
+                backend services for enterprise clients.</li>
+              <li>Built custom Odoo ERP extensions for financial modules including invoicing, payment tracking, and
+                multi-currency support.</li>
+              <li>Developed automated report generation and data export features using Python and Odoo's reporting
+                engine.</li>
+              <li>Participated in CI/CD pipeline setup using Git workflows and Linux server administration for
+                deployment automation.</li>
+            </ul>
+            <div class="exp-tags">
+              <span class="exp-tag">Python</span>
+              <span class="exp-tag">Django</span>
+              <span class="exp-tag">Odoo</span>
+              <span class="exp-tag">REST API</span>
+              <span class="exp-tag">Git</span>
+              <span class="exp-tag">Linux</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="timeline-item">
+          <div class="exp-card">
+            <div class="exp-header">
+              <div class="exp-company">
+                <div class="exp-logo">🌱</div>
+                <div>
+                  <div class="exp-role">Trainee Python Developer</div>
+                  <div class="exp-org">Xmedia Solutions</div>
+                </div>
+              </div>
+              <div class="exp-period">2022 – 2023</div>
+            </div>
+            <ul class="exp-achievements">
+              <li>Started ERP development journey building foundational Odoo modules, gaining hands-on experience with
+                Odoo ORM, XML views, and Python controllers.</li>
+              <li>Developed WordPress custom plugins using PODS and PMPro for content management and membership
+                platforms.</li>
+              <li>Learned enterprise software development practices including code review, version control, and
+                technical documentation standards.</li>
+              <li>Contributed to frontend development using HTML, CSS, JavaScript, and Bootstrap for responsive web
+                interfaces.</li>
+            </ul>
+            <div class="exp-tags">
+              <span class="exp-tag">Python</span>
+              <span class="exp-tag">Odoo</span>
+              <span class="exp-tag">WordPress</span>
+              <span class="exp-tag">JavaScript</span>
+              <span class="exp-tag">Bootstrap</span>
+            </div>
+          </div>
+        </div>
+        <div class="timeline-item">
+          <div class="exp-card">
+            <div class="exp-header">
+              <div class="exp-company">
+                <div class="exp-logo">🗄️</div>
+                <div>
+                  <div class="exp-role">SQL Server Database Administrator</div>
+                  <div class="exp-org">Sanriya Engineering Pvt Ltd</div>
+                </div>
+              </div>
+              <div class="exp-period">Sep 2017 – Jul 2019</div>
+            </div>
+
+            <ul class="exp-achievements">
+              <li>Installed, configured, and maintained Microsoft SQL Server databases supporting internal business applications.</li>
+              <li>Monitored database performance, optimized queries, and implemented indexing strategies to improve system efficiency.</li>
+              <li>Managed database backups, recovery procedures, and data integrity to ensure high availability and reliability.</li>
+              <li>Installed, configured, and maintained network hardware, software systems, and communication links across the organization.</li>
+            </ul>
+
+            <div class="exp-tags">
+              <span class="exp-tag">SQL Server</span>
+              <span class="exp-tag">Database Administration</span>
+              <span class="exp-tag">Performance Tuning</span>
+              <span class="exp-tag">Backup & Recovery</span>
+              <span class="exp-tag">Windows Server</span>
+              <span class="exp-tag">Networking</span>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+
+    
+  </section>
+
+  <div class="section-divider"></div>
+
+  <!-- ─── PROJECTS SECTION ───────────────────────────────────── -->
+  <section id="projects">
+    <div class="container">
+      <div class="section-header reveal">
+        <div class="section-label">Selected Work</div>
+        <h2 class="section-title">Featured Projects</h2>
+        <p class="section-subtitle">
+          Enterprise-grade systems built to solve real business challenges across
+          multiple domains and industries.
+        </p>
+      </div>
+
+      <div class="projects-grid">
+
+        <div class="project-card reveal delay-1">
+          <div class="project-icon-wrap pi-purple">
+            🎓
+          </div>
+          <div class="project-title">Online Learning Management System</div>
+          <div class="project-desc">
+            Integrated Moodle LMS with Odoo ERP using REST APIs to create a seamless
+            course synchronization platform. Built automated workflows for enrollment,
+            progress tracking, and certification — eliminating manual data entry across systems.
+          </div>
+          <div class="project-tags">
+            <span class="project-tag">Python</span>
+            <span class="project-tag">Odoo</span>
+            <span class="project-tag">REST API</span>
+            <span class="project-tag">Moodle</span>
+            <span class="project-tag">Automation</span>
+          </div>
+          <div class="project-links">
+            <a href="#" class="project-link">🔍 Case Study</a>
+            <a href="#" class="project-link">📋 Details</a>
+          </div>
+        </div>
+
+        <div class="project-card reveal delay-2">
+          <div class="project-icon-wrap pi-orange">
+            🎪
+          </div>
+          <div class="project-title">Event Management ERP Platform</div>
+          <div class="project-desc">
+            Full-featured event management system built on Odoo with booth reservation
+            and layout management, membership tier system, PayPal payment gateway integration,
+            and automated invoicing — handling complex multi-vendor event logistics at scale.
+          </div>
+          <div class="project-tags">
+            <span class="project-tag">Python</span>
+            <span class="project-tag">Odoo</span>
+            <span class="project-tag">PayPal API</span>
+            <span class="project-tag">OWL</span>
+            <span class="project-tag">PostgreSQL</span>
+          </div>
+          <div class="project-links">
+            <a href="#" class="project-link">🔍 Case Study</a>
+            <a href="#" class="project-link">📋 Details</a>
+          </div>
+        </div>
+
+        <div class="project-card reveal delay-3">
+          <div class="project-icon-wrap pi-green">
+            🏭
+          </div>
+          <div class="project-title">Manufacturing ERP System</div>
+          <div class="project-desc">
+            Custom production planning and manufacturing execution system built on Odoo.
+            Includes custom work order management, manufacturing cost estimation engine,
+            inventory tracking with real-time stock valuation, and automated procurement triggers.
+          </div>
+          <div class="project-tags">
+            <span class="project-tag">Python</span>
+            <span class="project-tag">Odoo MRP</span>
+            <span class="project-tag">ORM</span>
+            <span class="project-tag">Inventory</span>
+            <span class="project-tag">Reporting</span>
+          </div>
+          <div class="project-links">
+            <a href="#" class="project-link">🔍 Case Study</a>
+            <a href="#" class="project-link">📋 Details</a>
+          </div>
+        </div>
+
+        <div class="project-card reveal delay-4">
+          <div class="project-icon-wrap pi-red">
+            🏥
+          </div>
+          <div class="project-title">Hospital Management ERP</div>
+          <div class="project-desc">
+            Comprehensive hospital management platform on Odoo covering patient registration,
+            appointment scheduling, billing and insurance processing, pharmacy inventory,
+            and clinical workflow automation for multi-department hospital operations.
+          </div>
+          <div class="project-tags">
+            <span class="project-tag">Python</span>
+            <span class="project-tag">Odoo</span>
+            <span class="project-tag">Healthcare</span>
+            <span class="project-tag">Billing</span>
+            <span class="project-tag">Inventory</span>
+          </div>
+          <div class="project-links">
+            <a href="#" class="project-link">🔍 Case Study</a>
+            <a href="#" class="project-link">📋 Details</a>
+          </div>
+        </div>
+
+        <div class="project-card reveal delay-5">
+          <div class="project-icon-wrap pi-cyan">
+            🌐
+          </div>
+          <div class="project-title">WordPress Enterprise Development</div>
+          <div class="project-desc">
+            Custom WordPress platform development using advanced plugin architecture
+            with PODS Framework for complex custom post types and PMPro for membership
+            management — delivering enterprise-grade CMS solutions for client websites.
+          </div>
+          <div class="project-tags">
+            <span class="project-tag">WordPress</span>
+            <span class="project-tag">PHP</span>
+            <span class="project-tag">PODS</span>
+            <span class="project-tag">PMPro</span>
+            <span class="project-tag">JavaScript</span>
+          </div>
+          <div class="project-links">
+            <a href="#" class="project-link">🔍 Case Study</a>
+            <a href="#" class="project-link">📋 Details</a>
+          </div>
+        </div>
+
+        <div class="project-card project-card-featured reveal delay-1">
+          <div class="project-icon-wrap pi-strong">
+            🔗
+          </div>
+          <div class="project-title">E-Commerce ↔ ERP Integration Pipeline</div>
+          <div class="project-desc">
+            Bidirectional data synchronization engine connecting WooCommerce stores
+            with Odoo ERP — syncing products, customers, orders, and inventory in real-time
+            via webhooks and scheduled JSON-RPC jobs, supporting high-volume e-commerce operations.
+          </div>
+          <div class="project-tags">
+            <span class="project-tag">Python</span>
+            <span class="project-tag">Odoo</span>
+            <span class="project-tag">WooCommerce</span>
+            <span class="project-tag">JSON-RPC</span>
+            <span class="project-tag">Webhooks</span>
+          </div>
+          <div class="project-links">
+            <a href="#" class="project-link">🔍 Case Study</a>
+            <a href="#" class="project-link">📋 Details</a>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <div class="section-divider"></div>
+
+  <!-- ─── PHILOSOPHY SECTION ─────────────────────────────────── -->
+  <section id="philosophy">
+    <div class="container">
+      <div class="section-header reveal">
+        <div class="section-label">Engineering Principles</div>
+        <h2 class="section-title">How I Build Software</h2>
+        <p class="section-subtitle">
+          The principles that guide every system I architect, every line of code I write,
+          and every problem I solve.
+        </p>
+      </div>
+
+      <div class="philosophy-grid">
+        <div class="philosophy-card reveal delay-1">
+          <div class="phi-number">01</div>
+          <div class="phi-icon">🏗️</div>
+          <div class="phi-title">Scalable Architecture First</div>
+          <div class="phi-desc">
+            I design systems to scale from day one. Whether it's an Odoo module or
+            a REST API, the architecture must handle tomorrow's load before tomorrow arrives.
+            Database schema, API contracts, and module boundaries are designed for growth.
+          </div>
+        </div>
+
+        <div class="philosophy-card reveal delay-2">
+          <div class="phi-number">02</div>
+          <div class="phi-icon">🔧</div>
+          <div class="phi-title">Maintainable Codebases</div>
+          <div class="phi-desc">
+            Code is read far more than it is written. I prioritize clean, well-documented
+            code with clear separation of concerns. Future developers — including myself —
+            should understand the system without reading the git blame.
+          </div>
+        </div>
+
+        <div class="philosophy-card reveal delay-3">
+          <div class="phi-number">03</div>
+          <div class="phi-icon">⚙️</div>
+          <div class="phi-title">Automation-First Mindset</div>
+          <div class="phi-desc">
+            If a business process is repeated more than twice, it should be automated.
+            From scheduled Odoo cron jobs to event-driven API pipelines, I eliminate
+            manual touchpoints that introduce errors and slow down operations.
+          </div>
+        </div>
+
+        <div class="philosophy-card reveal delay-4">
+          <div class="phi-number">04</div>
+          <div class="phi-icon">🎯</div>
+          <div class="phi-title">Business Logic Clarity</div>
+          <div class="phi-desc">
+            ERP systems fail when developers don't understand the business they're
+            encoding. I invest time in understanding workflows, edge cases, and
+            exception paths before writing a single model definition or API endpoint.
+          </div>
+        </div>
+
+        <div class="philosophy-card reveal delay-5">
+          <div class="phi-number">05</div>
+          <div class="phi-icon">🔒</div>
+          <div class="phi-title">Robust Integration Design</div>
+          <div class="phi-desc">
+            Integrations between systems are where enterprise software most often breaks.
+            I design integrations with retry logic, proper error handling, data validation,
+            and comprehensive logging — building bridges that hold under pressure.
+          </div>
+        </div>
+
+        <div class="philosophy-card reveal delay-1">
+          <div class="phi-number">06</div>
+          <div class="phi-icon">🌍</div>
+          <div class="phi-title">Real-World Problem Solving</div>
+          <div class="phi-desc">
+            I measure success by impact, not elegance. The best solution is the one
+            that solves the real problem reliably, not the most technically impressive one.
+            Pragmatism and craft, working hand in hand.
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <div class="section-divider"></div>
+
+  <!-- ─── CONTACT SECTION ────────────────────────────────────── -->
+  <section id="contact">
+    <div class="container">
+      <div class="contact-wrapper">
+        <div class="contact-left reveal-left">
+          <div class="section-label">Get In Touch</div>
+          <h2>Let's Build Scalable<br /><span>Software Together.</span></h2>
+          <p>
+            Whether you're looking for a senior backend engineer, an Odoo ERP specialist,
+            or a technical partner for your next enterprise project — I'm open to conversations.
+            Let's discuss how I can contribute to your team or project.
+          </p>
+
+          <div class="contact-links">
+            <a href="mailto:abithraj25@gmail.com" class="contact-link-item" id="emailLink">
+              <div class="contact-link-icon">📧</div>
+              <div class="contact-link-text">
+                <strong>Email</strong>
+                <span>abithraj@email.com</span>
+              </div>
+              <span class="contact-link-arrow">→</span>
+            </a>
+
+            <a href="https://www.linkedin.com/in/abith-raj-84887a141/" target="_blank" rel="noopener" class="contact-link-item">
+              <div class="contact-link-icon">💼</div>
+              <div class="contact-link-text">
+                <strong>LinkedIn</strong>
+                <span>linkedin.com/in/abith-raj-84887a141/</span>
+              </div>
+              <span class="contact-link-arrow">→</span>
+            </a>
+
+            <a href="https://github.com/Abith619" target="_blank" rel="noopener" class="contact-link-item">
+              <div class="contact-link-icon">🐙</div>
+              <div class="contact-link-text">
+                <strong>GitHub</strong>
+                <span>github.com/Abith619</span>
+              </div>
+              <span class="contact-link-arrow">→</span>
+            </a>
+
+            <a href="#" class="contact-link-item">
+              <div class="contact-link-icon">🌐</div>
+              <div class="contact-link-text">
+                <strong>Freelance Inquiries</strong>
+                <span>Available for contract projects</span>
+              </div>
+              <span class="contact-link-arrow">→</span>
+            </a>
+          </div>
+        </div>
+
+        <div class="contact-right reveal-right">
+          <div class="contact-form" id="contactForm">
+            <h3>Send a Message</h3>
+            <form id="messageForm" novalidate>
+              <div class="form-group">
+                <label for="name">Your Name</label>
+                <input type="text" id="name" name="name" placeholder="John Smith" required />
+              </div>
+              <div class="form-group">
+                <label for="email">Email Address</label>
+                <input type="email" id="email" name="email" placeholder="john@company.com" required />
+              </div>
+              <div class="form-group">
+                <label for="subject">Subject</label>
+                <input type="text" id="subject" name="subject"
+                  placeholder="Project collaboration, job opportunity..." />
+              </div>
+              <div class="form-group">
+                <label for="message">Message</label>
+                <textarea id="message" name="message" placeholder="Tell me about your project or opportunity..."
+                  required></textarea>
+              </div>
+              <button type="submit" class="form-submit">Send Message →</button>
+            </form>
+            <div class="form-success" id="formSuccess">
+              ✅ Message sent! I'll get back to you within 24 hours.
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ─── FOOTER ─────────────────────────────────────────────── -->
+  <footer>
+    <p>
+      Built by <span>Abith Raj S</span> · Python Full Stack Developer · ERP Architect ·
+      &copy; <span id="year"></span>
+    </p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
